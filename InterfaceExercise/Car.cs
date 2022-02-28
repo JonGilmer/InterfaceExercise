@@ -18,8 +18,8 @@ namespace InterfaceExercise
         // Parameterized Constructor
         public Car(int numberOfDoors, string trunkSize)
         {
-            numberOfDoors = NumberOfDoors;
-            trunkSize = TrunkSize;
+            NumberOfDoors = numberOfDoors;
+            TrunkSize = trunkSize;
         }
 
         // Properties

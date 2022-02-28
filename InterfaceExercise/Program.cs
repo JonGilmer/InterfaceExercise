@@ -17,7 +17,7 @@ namespace InterfaceExercise
             PrintCar(myCar);
 
 
-            Truck myTruck = new Truck("Extended", "6.5 feet");
+            Truck myTruck = new Truck("6.5 feet", "Extended");
             myTruck.Wheels = 6;
             myTruck.Motor = "V8";
             myTruck.Transmission = "Manual";

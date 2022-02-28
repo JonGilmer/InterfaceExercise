@@ -18,8 +18,8 @@ namespace InterfaceExercise
         // Parameterized Constructor
         public SUV(string driveType, int numberOfSeats)
         {
-            driveType = DriveType;
-            numberOfSeats = NumberOfSeats;
+            DriveType = driveType;
+            NumberOfSeats = numberOfSeats;
         }
 
         // Properties

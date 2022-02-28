@@ -18,8 +18,8 @@ namespace InterfaceExercise
         // Parameterized Constructor
         public Truck(string cabinType, string truckBedSize)
         {
-            cabinType = CabinType;
-            truckBedSize = TruckBedSize;
+            CabinType = cabinType;
+            TruckBedSize = truckBedSize;
         }
 
         // Properties
