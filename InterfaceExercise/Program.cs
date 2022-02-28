@@ -21,11 +21,12 @@ namespace InterfaceExercise
             myTruck.Wheels = 6;
             myTruck.Motor = "V8";
             myTruck.Transmission = "Manual";
-            myTruck.Brakes = "";
+            myTruck.Brakes = "2 Disk, 2 Drum";
             myTruck.BusinessLicense = "Corporation";
             myTruck.Employees = "219,000 people";
 
             PrintCar(myTruck);
+
 
             SUV mySUV = new SUV("Four Wheel Drive", 7);
             mySUV.Wheels = 4;
@@ -36,6 +37,7 @@ namespace InterfaceExercise
             mySUV.Employees = "18,000";
 
             PrintCar(mySUV);
+
         }
 
 
